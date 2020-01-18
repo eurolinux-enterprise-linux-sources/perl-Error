@@ -1,6 +1,6 @@
 Name:           perl-Error
 Version:        0.17020
-Release:        1%{?dist}
+Release:        2%{?dist}
 Epoch:          1
 Summary:        Error/exception handling in an OO-ish way
 License:        (GPL+ or Artistic) and MIT
@@ -65,6 +65,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man3/Error::Simple.3pm*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1:0.17020-2
+- Mass rebuild 2013-12-27
+
 * Sun May  5 2013 Paul Howarth <paul@city-fan.org> - 1:0.17020-1
 - Update to 0.17020
   - Change to Shlomi Fish's new E-mail and web address
